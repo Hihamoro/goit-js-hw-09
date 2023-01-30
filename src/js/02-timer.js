@@ -4,8 +4,8 @@ import 'flatpickr/dist/flatpickr.min.css';
 const dateTimePicker = document.querySelector('input[type="text"]');
 const startButton = document.querySelector('button[data-start]');
 const datesEl = document.querySelector('span[data-days]');
-const hoursEl = document.querySelector('input[data-hours]');
-const minutesEl = document.querySelector('input[data-minutes]');
+const hoursEl = document.querySelector('span[data-hours]');
+const minutesEl = document.querySelector('span[data-minutes]');
 const secondsEl = document.querySelector('span[data-seconds]');
 
 startButton.disabled = true;
